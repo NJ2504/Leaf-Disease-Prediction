@@ -1,5 +1,16 @@
-The aim of the project is to identify plant leaf diseases over 36 different categories. 
-The dataset consists of over 87k images and they are already split into training and validation. 
-Convolutional Neural Network and MaxPooling layers are used for this project.
-The dataset is further expanded using several augmentation techniques. 
-Link to the dataset: https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset
+The link for the dataset is:
+https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset
+
+The dataset is comprises of 87k RGB images spread across 338 different categories. The dataset is divided into 80/20 ratio of training and validation. There is a seperate file directory consisting of 33 images. 
+
+Code Desription:
+This project utilizes Convolutional Neural Network as the algorithm implemented using Tensorflow. The images are augmented using different techniques such as:
+1. Rescale 
+2. Rotation Range 
+3. Width Shift Rnage
+4. Height Shift Range
+5. Shear Rnage
+6. Horizontal Flip
+7. Fill Mode
+
+The model building comprises of using 3 Convolutional layers and Max Pooling Layer. Learning Curves and predictions are displayed. 
